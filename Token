@@ -239,7 +239,7 @@ contract Ateron is IERC20, Ownable {
 
     using SafeMath for uint256;
 
-    uint8 private _decimals = 14;
+    uint8 private _decimals = 18;
 
     // ********************************* START VARIABLES *********************************
     string private _name = "Ateron";                                                     // name
